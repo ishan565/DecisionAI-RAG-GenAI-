@@ -1,63 +1,65 @@
-# DecisionAI: RAG x GenAI Decision Studio
+# DecisionAI: The Decision Supernova
 
-Welcome to DecisionAI, an intelligent decision-making playground where retrieval-augmented generation meets practical everyday choices. This project fuses a Spring Boot reasoning engine with a modern React interface to transform vague questions into structured, context-aware recommendations.
+<p align="center">
+	<b>RAG-powered intelligence for real-world choices.</b><br/>
+	Spring Boot precision in the backend. React velocity in the frontend.
+</p>
 
-## What This Project Feels Like
+<p align="center">
+	<img alt="Java" src="https://img.shields.io/badge/Java-17-0B3D91?style=for-the-badge&logo=openjdk&logoColor=white" />
+	<img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-3.x-2E7D32?style=for-the-badge&logo=springboot&logoColor=white" />
+	<img alt="React" src="https://img.shields.io/badge/React-18-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" />
+	<img alt="Vite" src="https://img.shields.io/badge/Vite-Frontend_Astro_Engine-8A2BE2?style=for-the-badge&logo=vite&logoColor=white" />
+	<img alt="RAG" src="https://img.shields.io/badge/RAG-Context_Grounded-8B1E3F?style=for-the-badge" />
+</p>
 
-DecisionAI is not just another chatbot wrapper. It is a guided decision system that:
-- interprets user intent,
-- pulls domain context from local knowledge resources,
-- scores options with transparent criteria,
-- and returns recommendations that feel sharp, explainable, and useful.
+DecisionAI is a high-energy decision engine that transforms uncertainty into actionable recommendations. It blends retrieval-augmented generation with domain-driven scoring, giving users answers that are not only smart, but explainable.
 
-From laptop picks to life scenarios, it turns indecision into confident action.
+## Why This Hits Different
 
-![DecisionAI Preview 1](./Screenshot%202026-03-24%20at%2016.39.39.PNG)
+- Decision-first architecture, not a generic chatbot wrapper
+- Retrieval-enhanced context for grounded outputs
+- Transparent criteria mapping and domain scoring
+- Built for practical scenarios like laptops, life decisions, and preference trade-offs
 
-## Core Stack
+![DecisionAI Interface Preview](./decisionai-preview-1.png)
 
-- Backend: Java + Spring Boot
-- AI Layer: OpenAI-powered generation with local RAG support
-- Retrieval Utilities: vectorization + cosine similarity utilities
-- Frontend: React + Vite + Tailwind CSS
-- Build Tools: Maven (backend), npm (frontend)
+## System Blueprint
 
-## Architecture at a Glance
+### Backend: decisionai
 
-The system is split into two focused surfaces:
-- decisionai: backend API, decision engine, model classes, retrieval logic, domain registry
-- decisionai-frontend: responsive UI for capturing user preferences and rendering results
+- Spring Boot API for decision orchestration
+- Decision engine + domain registry for modular logic
+- RAG utilities with vectorization and cosine similarity
+- Resource packs for scenario knowledge
 
-Inside the backend, domain packs and criteria mapping provide a clean abstraction that keeps recommendations modular and expandable.
+### Frontend: decisionai-frontend
 
-![DecisionAI Preview 2](./Screenshot%202026-03-24%20at%2016.40.13.PNG)
+- React + Vite experience layer
+- User preference capture and scenario prompting
+- Structured recommendation presentation
 
-## Why It Stands Out
+![DecisionAI Recommendation Flow](./decisionai-preview-2.png)
 
-- Explainable recommendation flow instead of random text generation
-- Retrieval-aware context injection for grounded outputs
-- Domain-driven structure for easy extension
-- Practical real-world scenarios over toy prompts
+## Quickstart
 
-## Local Setup
-
-### 1) Clone
+### 1. Clone
 
 ```bash
 git clone https://github.com/ishan565/DecisionAI-RAG-GenAI-.git
 cd DecisionAI-RAG-GenAI-
 ```
 
-### 2) Run Backend
+### 2. Run Backend
 
 ```bash
 cd decisionai
 ./mvnw spring-boot:run
 ```
 
-### 3) Run Frontend
+### 3. Run Frontend
 
-Open a second terminal:
+Use a second terminal:
 
 ```bash
 cd decisionai-frontend
@@ -65,12 +67,23 @@ npm install
 npm run dev
 ```
 
-## Vision
+## Project Structure
 
-DecisionAI is engineered as a launchpad for smarter, evidence-backed decision systems. The long-term direction is simple: deeper retrieval, richer domain packs, and recommendations that are not only intelligent, but unforgettable.
+```text
+.
+├── decisionai/            # Spring Boot backend + RAG decision core
+├── decisionai-frontend/   # React + Vite frontend
+├── decisionai-preview-1.png
+├── decisionai-preview-2.png
+└── decisionai-preview-3.png
+```
 
-![DecisionAI Preview 3](./Screenshot%202026-03-24%20at%2016.40.30.PNG)
+## Vision Orbit
+
+This project is designed to evolve into a full decision intelligence platform: richer domain packs, stronger retrieval pipelines, and recommendation trails users can trust.
+
+![DecisionAI Full Experience](./decisionai-preview-3.png)
 
 ## Author
 
-Built by Ishan Gupta with a focus on practical AI, clean architecture, and product-grade user experience.
+Crafted by Ishan Gupta to merge practical AI reasoning with product-grade UX.

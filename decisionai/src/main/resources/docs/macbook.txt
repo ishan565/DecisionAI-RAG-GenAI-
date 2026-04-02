@@ -1,0 +1,4 @@
+MacBook Air M2 is known for excellent battery life (up to 18 hours),
+silent operation due to fanless design, and strong CPU performance
+for programming tasks like Java, Python, and web development.
+However, it lacks a dedicated GPU and is not suitable for gaming.

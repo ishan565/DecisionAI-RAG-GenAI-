@@ -1,0 +1,8 @@
+Battery life is crucial for students attending long lectures.
+Lightweight laptops are easier to carry daily in backpacks.
+High performance CPUs help in compiling large projects.
+Dedicated GPUs are mainly useful for gaming or ML training.
+MacOS provides stable Unix development environment.
+Windows provides better compatibility with engineering software.
+SSD storage improves coding productivity.
+RAM above 16GB helps multitasking with IDEs and browsers.

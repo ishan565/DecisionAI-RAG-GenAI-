@@ -1,0 +1,5 @@
+For most computer science students, battery life, portability, and
+keyboard comfort are more important than GPU performance.
+Heavy gaming laptops are usually unnecessary unless gaming or ML training
+is a priority.
+
